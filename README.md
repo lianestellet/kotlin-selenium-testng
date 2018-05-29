@@ -13,7 +13,7 @@ Anyway, I think it's a good starting point for testing kotlin or selenium
 ## Build
 - use IntelliJ
 - import maven dependencies (pom.xml)
-- run tests ~*yay!*~
+- run tests _*yay!*_
 
 no complications, just download and run.
 
