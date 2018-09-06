@@ -5,6 +5,8 @@ This mini-project just create a random Outlook account with automation, but ther
 
 Anyway, I think it's a good starting point for testing kotlin or selenium
 
+Warning: I am still learning IntelliJ, so there is a problem with java JDK configuration, Open Module Settings and reference the JDK to your local installed Java jdk folder, I will try to fix this later ok?
+
 ## Resources
 - Selenium Webdriver
 - TestNg
