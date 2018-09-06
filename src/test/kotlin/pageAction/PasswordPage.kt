@@ -14,6 +14,10 @@ class PasswordPage {
         newPassword = Generate.password()
     }
 
+    constructor (password: String) {
+        newPassword = password
+    }
+
     init {
         PageFactory.initElements(SeleniumEngine.driver, this)
     }
@@ -38,7 +42,7 @@ class PasswordPage {
 
     fun getPageMessage(): String {
         return SeleniumEngine.driver.findElement(
-                By.xpath("//*[@id='Password']//div//div")).text
+                By.xpath("//*[@id='CredentialsInputPane']/div")).text
     }
 
 }

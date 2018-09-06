@@ -14,6 +14,10 @@ class EmailPage {
         this.newUsername = Generate.username()
     }
 
+    constructor(username: String) {
+        this.newUsername = username
+    }
+
     init {
         PageFactory.initElements(SeleniumEngine.driver, this)
     }

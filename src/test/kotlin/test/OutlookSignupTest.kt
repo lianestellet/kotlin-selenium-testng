@@ -1,4 +1,4 @@
-package Tests.Outlook
+package tests
 
 import PageAction.Outlook.*
 import setup.TestBaseOutlook

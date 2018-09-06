@@ -5,24 +5,20 @@ import org.testng.annotations.*
 
 abstract class TestBaseOutlook {
 
-    var setupReady: Boolean = false
-
-    @BeforeMethod
+    @BeforeTest
     fun setup() {
-        if(!setupReady) {
-            SeleniumEngine.defaultChromeSetup()
-            setupReady = true
-        }
-        accessOutlookSignupUrl()
+        SeleniumEngine.defaultChromeSetup()
     }
 
-    private fun accessOutlookSignupUrl() {
+
+    @BeforeMethod
+    fun accessOutlookSignupUrl() {
         Redirect.accessUrl("url.outlook.signup")
     }
 
     @AfterMethod
     fun delay(){
-        Wait.seconds(3)
+        Wait.seconds(4)
     }
 
     @AfterSuite
