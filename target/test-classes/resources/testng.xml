@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="All Outlook tests executions" parallel="classes" verbose="1" >
-    <test name="Test all methods" >
-        <classes>
-            <class name="Tests.Outlook.OutlookSignupTest"/>
-        </classes>
-    </test>
-</suite>
